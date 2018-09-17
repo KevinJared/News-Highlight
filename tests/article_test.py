@@ -10,7 +10,7 @@ class ArticleTest(unittest.TestCase):
         '''
         runs before every test
         '''
-        self.new_article = Article("Gitu Mbugua", "Testing Article Class", "This text represents an article...",
+        self.new_article = Article("Kevin Jared", "Testing Article Class", "This text represents an article...",
         "http://dummylink.com/more-link", "https://dummylink.com/image.jpg", "2017-10-22T09:00:32Z")
 
     def test_instance(self):
